@@ -1,0 +1,19 @@
+
+
+
+
+auto:
+
+indice di registrazione= integer-SMALL-PRIMARY KEY
+marca=  "string" VARCHAR
+porte=  integer TINYINT
+modello=  "string" VARCHAR
+motore=  "string" VARCHAR
+allestimento= "string" VARCHAR
+anno di immatricolazione= date YEAR
+km percorsi= float-DOUBLE
+numero proprietari=integer TINYINT
+colore= "string" VARCHAR
+
+
+
