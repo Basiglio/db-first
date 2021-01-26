@@ -15,4 +15,4 @@ km percorsi= integer MEDIUMINT
 numero proprietari= integer TINYINT
 colore= "string" VARCHAR(15)
 prezzo= integer SMALL NOTNULL
-cambio= integer TINYINT
+cambio= integer TINYINT;
