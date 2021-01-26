@@ -11,9 +11,6 @@ modello=  "string" VARCHAR
 motore=  "string" VARCHAR
 allestimento= "string" VARCHAR
 anno di immatricolazione= date YEAR
-km percorsi= float-DOUBLE
-numero proprietari=integer TINYINT
+km percorsi= integer MEDIUMINT
+numero proprietari= integer TINYINT
 colore= "string" VARCHAR
-
-
-
