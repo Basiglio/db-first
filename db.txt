@@ -5,16 +5,14 @@
 auto:
 
 indice di registrazione= integer-SMALL-PRIMARY KEY
-marca=  "string" VARCHAR(20)
+marca=  "string" VARCHAR(20) NOTNULL
 porte=  integer TINYINT
 modello=  "string" VARCHAR(15)
 motore=  "string" VARCHAR(7)
 allestimento= "string" VARCHAR (15) DEFAULT("BASE")
-anno di immatricolazione= date YEAR
-km percorsi= integer MEDIUMINT
+anno di immatricolazione= date YEAR NOTNULL
+km percorsi= integer MEDIUMINT NOTNULL
 numero proprietari= integer TINYINT
 colore= "string" VARCHAR(15)
 prezzo= integer SMALL NOTNULL
 cambio= integer TINYINT;
-
-.
